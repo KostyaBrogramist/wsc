@@ -472,6 +472,7 @@ Choose version:
 1. WANTUS DEMO
 2. WANTUS 0.0.0.1
 3. WANTUS FOR SCHOOLS
+4. exit
 """)
 
         if open_box_settind == '0':
@@ -586,6 +587,9 @@ Choose version:
         elif open_box_settind == '3':
 
           print('Sorry,this version in work.')
+          
+        elif open_box_settind == '4':
+          break
         
         else:
           out_red("Ошибка404!")
